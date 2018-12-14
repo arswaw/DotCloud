@@ -11,7 +11,7 @@ const Main =
 <div class="section">
     <dot></dot>
     <div class="row columns is-multiline">
-        <grid v-for="tweet of tweets"></grid>
+        <grid v-bind:tweet="tweet" v-for="tweet of tweets"></grid>
     </div>
 </div>
 
