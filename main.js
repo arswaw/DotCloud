@@ -2,6 +2,7 @@ import { Main } from './templates/main.js'
 import { Dot } from './components/dot.js'
 import { Nav } from './components/nav.js'
 import { Grid } from './components/grid.js'
+import { Footer } from './components/footer.js'
 
 /* global Vue */
 new Vue({
@@ -14,7 +15,8 @@ new Vue({
   components: {
     'dot': Dot,
     'navbar': Nav,
-    'grid': Grid
+    'grid': Grid,
+    'footer-section': Footer
   },
   template: Main
 })

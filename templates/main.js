@@ -14,7 +14,10 @@ const Main =
         <grid v-for="tweet of tweets"></grid>
     </div>
 </div>
-</div></div>
+
+</div>
+<footer-section></footer-section>
+</div>
 `
 
 export { Main }
