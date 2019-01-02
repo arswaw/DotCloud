@@ -9,13 +9,13 @@ const GridTemplate = `
                                     </figure>
                                 </div>
                                 <div class="media-content">
-                                    <p class="title is-4 no-padding">{{tweet.name}}</p>
-                                    <p><span class="title is-6"><a href="http://twitter.com/#">{{tweet.handle}}</a></span></p>
-                                    <p class="subtitle is-6">{{tweet.job}}</p>
+                                    <p class="title is-4 no-padding">{{dot.name}}</p>
+                                    <p><span class="title is-6"><a href="http://twitter.com/#">{{dot.handle}}</a></span></p>
+                                    <p class="subtitle is-6">{{dot.job}}</p>
                                 </div>
                             </div>
                             <div class="content">
-                                {{tweet.bio}}
+                                {{dot.bio}}
                                 <div class="background-icon"><span class="icon-twitter"></span></div>
                             </div>
                         </div>

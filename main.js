@@ -1,4 +1,4 @@
-import { Main } from './templates/main.js'
+import { Main } from './templates/Main.js'
 import { Dot } from './components/dot.js'
 import { Nav } from './components/nav.js'
 import { Grid } from './components/grid.js'
@@ -9,7 +9,7 @@ new Vue({
   el: '#app',
   data: function() {
     return {
-      tweets: [
+      dots: [
       {
         name: "/u/arswaw",
         handle: "@arswaw",

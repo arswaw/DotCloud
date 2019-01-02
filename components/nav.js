@@ -1,4 +1,4 @@
-import { NavTemplate } from '../templates/nav.js'
+import { NavTemplate } from '../templates/Nav.js'
 
 const Nav = {
     template: NavTemplate

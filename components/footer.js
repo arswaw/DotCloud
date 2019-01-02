@@ -1,4 +1,4 @@
-import { FooterTemplate } from '../templates/footer.js'
+import { FooterTemplate } from '../templates/Footer.js'
 
 const Footer = {
     template: FooterTemplate

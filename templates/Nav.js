@@ -18,19 +18,13 @@ const NavTemplate = `
                                     Home
                                 </a>
                             <a class="navbar-item">
-                                    Examples
-                                </a>
-                            <a class="navbar-item">
-                                    Features
-                                </a>
-                            <a class="navbar-item">
                                     Team
                                 </a>
                             <a class="navbar-item">
-                                    Archives
+                                    Messages
                                 </a>
                             <a class="navbar-item">
-                                    Help
+                                    Notifications
                                 </a>
                             <div class="navbar-item has-dropdown is-hoverable">
                                 <a class="navbar-link">
