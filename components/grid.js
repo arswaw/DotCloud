@@ -7,9 +7,9 @@ const Grid = {
     mounted: function() {
         this.$root.$on('dot', dot => {
             this.dots.push(dot);
-            console.info("saving dot", dot)
-            console.log("dots:");
-            console.log(this.dots);
+            console.info("saving dot: ", dot)
+            console.log("dots:")
+            console.log(this.dots)
         })
     }
 }
