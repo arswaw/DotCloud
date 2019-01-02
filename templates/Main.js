@@ -8,9 +8,9 @@ const Main =
             <span class="flow-3"></span>
         </div>
         <div class="section">
-            <dot></dot>
+            <input-box></input-box>
             <div class="row columns is-multiline">
-                <grid v-bind:dot="dot" v-for="dot of dots"></grid>
+                <dot v-bind:dot="dot" v-for="dot of dots"></dot>
             </div>
         </div>
     </div>

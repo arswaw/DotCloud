@@ -1,9 +1,9 @@
 import { Main } from './templates/Main.js'
 
 import { Dot } from './components/dot.js'
-import { Nav } from './components/nav.js'
-import { Grid } from './components/grid.js'
 import { Footer } from './components/footer.js'
+import { Input } from './components/input.js'
+import { Nav } from './components/nav.js'
 
 /* global Vue */
 new Vue({
@@ -64,9 +64,9 @@ new Vue({
         }
     },
     components: {
+        'input-box': Input,
         'dot': Dot,
         'navbar': Nav,
-        'grid': Grid,
         'footer-section': Footer
     },
     template: Main
