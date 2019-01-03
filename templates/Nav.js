@@ -14,42 +14,20 @@ const NavTemplate =
             </div>
             <div id="navbarMenu" class="navbar-menu">
                 <div class="navbar-end">
-                    <a class="navbar-item is-active">
-                        Home
-                    </a>
-                    <a class="navbar-item">
-                            Examples
-                    </a>
-                    <a class="navbar-item">
-                        Features
-                    </a>
-                    <a class="navbar-item">
-                        Team
-                    </a>
-                    <a class="navbar-item">
-                        Messages
-                    </a>
-                    <a class="navbar-item">
-                        Notifications
-                    </a>
+                    <a class="navbar-item is-active">Home</a>
+                    <a class="navbar-item">Examples</a>
+                    <a class="navbar-item">Features</a>
+                    <a class="navbar-item">Team</a>
+                    <a class="navbar-item">Messages</a>
+                    <a class="navbar-item">Notifications</a>
                     <div class="navbar-item has-dropdown is-hoverable">
-                        <a class="navbar-link">
-                                Account
-                        </a>
+                        <a class="navbar-link">Account</a>
                         <div class="navbar-dropdown">
-                            <a class="navbar-item">
-                                Dashboard
-                            </a>
-                            <a class="navbar-item">
-                                Profile
-                            </a>
-                            <a class="navbar-item">
-                                Settings
-                            </a>
+                            <a class="navbar-item">Dashboard</a>
+                            <a class="navbar-item">Profile</a>
+                            <a class="navbar-item">Settings</a>
                             <hr class="navbar-divider">
-                            <div class="navbar-item">
-                                Logout
-                            </div>
+                            <div class="navbar-item">Logout</div>
                         </div>
                     </div>
                 </div>
