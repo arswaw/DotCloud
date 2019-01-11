@@ -1,7 +1,7 @@
 import { FooterTemplate } from '../templates/Footer.js'
 
 const Footer = {
-    template: FooterTemplate
+  template: FooterTemplate
 }
 
 export { Footer }

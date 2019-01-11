@@ -1,7 +1,7 @@
 import { NavTemplate } from '../templates/Nav.js'
 
 const Nav = {
-    template: NavTemplate
+  template: NavTemplate
 }
 
 export { Nav }
