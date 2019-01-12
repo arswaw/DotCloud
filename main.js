@@ -9,9 +9,6 @@ import { Nav } from './components/nav.js'
 var vm = new Vue({
   el: '#app',
   router,
-  data: {
-    dots: JSON.parse(localStorage.getItem('dots'))
-  },
   components: {
     'navbar': Nav,
     'footer-section': Footer

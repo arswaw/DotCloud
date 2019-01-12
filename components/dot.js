@@ -1,14 +1,14 @@
 import { DotTemplate } from '../templates/Dot.js'
 
 const Dot = {
-  props: [ 'dot' ],
+  props: [ 'dots', 'dot' ],
   template: DotTemplate,
   mounted: function () {
-    this.$root.$on('dot', dot => {
-      this.dots.push(dot);
-      console.info("saving dot: ", dot)
-      console.log("dots:")
-      console.log(this.dots)
+    this.$root.$on('new-dot', newDot => {
+      if (this.dots.findIndex(dot => dot.id === newDot.id) !== -1) return;
+      
+      this.dots.push(newDot)
+      localStorage.setItem("dots", JSON.stringify(this.dots))
     })
   }
 }

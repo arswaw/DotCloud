@@ -1,11 +1,11 @@
-import { Index } from './components/index.js'
+import { Home } from './components/home.js'
 import { Login } from './components/login.js'
 import { Signup } from './components/signup.js'
 
 const routes = [
   { 
     path: '/', 
-    component: Index,
+    component: Home,
     meta: {
       title: 'Home'
     } 
