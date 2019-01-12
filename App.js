@@ -1,4 +1,4 @@
-const MainTemplate = 
+const AppTemplate = 
 `<div>
   <navbar></navbar>
     <div class="container">
@@ -8,13 +8,10 @@ const MainTemplate =
         <span class="flow-3"></span>
       </div>
       <div class="section">
-        <input-box></input-box>
-        <div class="row columns is-multiline">
-          <dot v-bind:dot="dot" v-bind:key="dot.dotId" v-for="dot of dots"></dot>
-        </div>
+        <router-view></router-view>
       </div>
     </div>
   <footer-section></footer-section>
 </div>`
 
-export { MainTemplate }
+export { AppTemplate }

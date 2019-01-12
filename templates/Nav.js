@@ -4,7 +4,7 @@ const NavTemplate =
     <div class="container">
       <div class="navbar-brand">
         <a class="navbar-item" href="../">
-          <img src="logo.png" style="max-height: 3.75rem;" alt="Logo">
+          <img src="assets/images/logo.png" style="max-height: 3.75rem;" alt="Logo">
         </a>
         <span class="navbar-burger burger" data-target="navbarMenu">
           <span></span>

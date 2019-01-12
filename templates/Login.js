@@ -1,17 +1,24 @@
 const LoginTemplate =
 `<div>
-  <navbar></navbar>
-  <div class="container">
-    <div id="flow">
-      <span class="flow-1"></span>
-      <span class="flow-2"></span>
-      <span class="flow-3"></span>
+  <h1>Login page</h1>
+  <article class="media">
+    <div class="media-content">
+      <div class="field">
+        <p class="control">
+          <input class="input" type="email" name="email" placeholder="Email address">
+        </p>
+      </div>
     </div>
-    <div class="section">
-      <h1>Login page</h1>
+  </article>
+  <article class="media">
+    <div class="media-content">
+      <div class="field">
+        <p class="control">
+          <input class="input" type="password" name="password" placeholder="Password">
+        </p>
+      </div>
     </div>
-  </div>
-  <footer-section></footer-section>
+  </article>
 </div>`
 
 export { LoginTemplate }

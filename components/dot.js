@@ -1,9 +1,8 @@
 import { DotTemplate } from '../templates/Dot.js'
 
 const Dot = {
-  props: ['dot'],
+  props: [ 'dot' ],
   template: DotTemplate,
-  data: function () { return { dots: [] } },
   mounted: function () {
     this.$root.$on('dot', dot => {
       this.dots.push(dot);
